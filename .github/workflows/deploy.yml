@@ -1,6 +1,6 @@
 # file .github/workflow/deploy.yml
 
-name: 'deploy website and ebooks'
+name: 'deploy website'
 
 on:
   push:
