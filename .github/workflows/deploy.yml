@@ -5,7 +5,7 @@ name: 'deploy website'
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   job_deploy_website:
