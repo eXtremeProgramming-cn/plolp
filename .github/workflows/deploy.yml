@@ -1,4 +1,4 @@
-# file ./softwareengineering/.github/workflow/deploy.yml
+# file .github/workflow/deploy.yml
 
 name: 'deploy website and ebooks'
 
