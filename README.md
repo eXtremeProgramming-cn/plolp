@@ -9,4 +9,3 @@ Catalog of patterns:
 * Pattern 5: [Output Constraint / Formatting Specification](catalog/output_constraint.md)
 * Pattern 6: [Contextual Grounding / Resource Provision](catalog/contextual_grounding.md)
 * Pattern 7: [Incremental Task Building / Contextual Carryover](catalog/contextual_carryover.md)
-
