@@ -1,9 +1,9 @@
-## Style Mimicry / Template Following
+### Style Mimicry  
+Give the LLM sample documents to mimic style and structure.
 
-*   **Intent:** To ensure the LLM's output conforms to a specific stylistic or structural format by providing explicit examples or templates to emulate.
-*   **Problem:** Achieving consistent formatting, language style, tone, or document structure can be difficult. The LLM might generate output that is stylistically inappropriate or structurally incorrect.
-*   **Solution:** Provide concrete examples or references for the LLM to follow:
-    *   Refer to attached documents specifically for their structure and style (e.g., "You can study its structure and language style. NOTE: its content IS NOT relevant").
-    *   Instruct the LLM to mimic the format of specific examples (e.g., "mimic the format of each indicator as they are in Document 2 and Document 3").
-    *   Provide snippets of desired style within the prompt itself (less common in these examples but a valid technique).
-*   **Applicability:** Use when output structure, formatting (headings, citations, lists), tone, or language style needs to be highly specific and consistent, especially when matching existing document types or series. Seen strongly in Prompts 1 and 3.
+**Challenge:** Achieving a very specific tone or format in the output is difficult if the LLM isn't guided by examples. The model's default writing style might not match what you need — it could be less formal, differently organized, or otherwise inconsistent with a particular style or template you're aiming for. Without showing the model what you want, the nuances of a desired style may be lost.
+
+**Solution:** Provide examples or templates that demonstrate the desired style, and instruct the LLM to emulate them:  
+- **Reference examples:** Share or attach a document that exemplifies the style/structure you want and direct the model to use it as a guide. (For instance: "Refer to Document1 for the report style — follow its tone and format, but ignore its actual content.")  
+- **Format imitation:** Explicitly tell the LLM to mimic certain format elements from the example (e.g., "Use the same section headings and bullet layout as in the sample document").  
+- **Style snippets:** Optionally include a short excerpt in the prompt that captures the voice or style you want, so the LLM can mirror that in its output.

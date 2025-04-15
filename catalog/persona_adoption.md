@@ -1,10 +1,10 @@
-## Persona Adoption
+### Persona Adoption  
+Give the LLM a persona to guide its responses.
 
-*   **Intent:** To imbue the LLM with a specific role, perspective, belief system, or expertise, ensuring the output reflects a desired viewpoint, tone, and domain knowledge.
-*   **Problem:** The LLM's default persona is often too neutral, generic, or lacks the specific biases, expertise, or background needed for a specialized task. The output might lack the required depth, tone, or alignment.
-*   **Solution:** Explicitly define the persona the LLM should adopt at the beginning of the prompt. Include details like:
-    *   Job title/Role (e.g., "Chinese professor," "Academic researcher").
-    *   Area of expertise (e.g., "international relations, geopolitics," "digital sovereignty").
-    *   Beliefs/Ideology (e.g., "patriot and Marxist," "believe internationalism... fits national interest").
-    *   Implicit context associated with the role (e.g., Neican writers understand sensitivity and audience).
-*   **Applicability:** Use when the output's tone, perspective, level of formality, or specific knowledge base is critical and non-generic. Essential for tasks requiring specialized viewpoints (e.g., legal analysis, specific political commentary, creative writing in a character's voice). Seen strongly in Prompt 1, and present in Prompts 2 & 3.
+**Challenge:** The LLM's default persona is often neutral and generic, lacking the specific perspective or expertise needed for a specialized task. Without a defined role, its responses may be too general and not aligned with the tone or depth you require.
+
+**Solution:** Explicitly define a persona for the LLM at the start of the prompt. Include details such as:  
+- **Role or title:** The role or job title you want it to assume (e.g., "a university history professor").  
+- **Expertise:** The area of expertise or domain knowledge it should have (e.g., "with expertise in international relations and digital sovereignty").  
+- **Ideology or viewpoint:** Any key beliefs or ideological stance (e.g., "a patriot with Marxist leanings who believes internationalism can align with national interest").  
+- **Contextual info:** Relevant background or context that comes with that persona (e.g., "familiar with governmental sensitivities and the target audience's expectations").
