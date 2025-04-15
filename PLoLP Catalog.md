@@ -53,5 +53,7 @@
     *   Always decompose your task into smaller subtasks, and consider MECE principle while doing so.
 *   **Precision**
     *   Use precise language. Give clear instructions. Refer to entities without ambiguity. Use glossary and numbering systems for consistency.
+*	**Brainstorm**
+	*	Always invite LLM to think through your challenge from multiple perspectives. Discuss with it and consolidate your thoughts.
 *	**Criticism**
 	*	Always ask LLM to criticize and improve your work from various angles.
