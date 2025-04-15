@@ -1,6 +1,0 @@
-### Attachment  
-Attach reference files to your prompt for context and future reuse.
-
-**Challenge:** When a task involves heavy reference material (like a long article, legal document, or dataset), providing that content in the prompt itself can be impractical or impossible due to length. If you omit these materials, the LLM lacks critical context and may produce incorrect or generic answers. Conversely, summarizing large documents in the prompt is time-consuming and might leave out important details.
-
-**Solution:** Attach relevant documents or files to your prompt instead of trying to paste their entire content. For example, you can attach a research paper, a policy document, or a set of data, and then instruct the LLM to use that attachment when formulating its answer. This way, the LLM has access to the detailed information without it cluttering the prompt text. Using attachments not only gives the model the exact references it needs, but also makes your prompting process modular — you can reuse those files for other prompts and build a library of reference materials.

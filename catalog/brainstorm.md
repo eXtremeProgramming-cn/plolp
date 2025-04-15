@@ -1,6 +1,0 @@
-### Brainstorm  
-Brainstorm with the LLM: explore multiple perspectives and refine ideas.
-
-**Challenge:** A straightforward prompt typically yields a single answer or perspective from the LLM, which might not be the best or only solution. For complex, creative, or open-ended problems, focusing on just one approach can limit the quality of the outcome. Without encouraging a brainstorming process, you might miss out on alternative solutions or the chance to combine ideas into a better answer.
-
-**Solution:** Involve the LLM in a brainstorming session within the prompt. For example, ask the model to generate a list of ideas, options, or hypotheses around your problem before deciding on a solution. Encourage it to consider the problem from different angles ("What are some possible explanations...?" or "List a few approaches to..."). Then, iterate on those ideas by discussing pros and cons or asking the model to elaborate further on the most promising ones. This collaborative exploration can lead to a more innovative and well-considered result than a single-pass answer.

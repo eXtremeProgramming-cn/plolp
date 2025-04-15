@@ -1,6 +1,0 @@
-### Iteration  
-Learn from mistakes and improve intentionally; avoid aimless experimenting.
-
-**Challenge:** Making random changes to your prompt without a strategy can waste time and not lead to better results. Likewise, if you don't iterate at all, any weaknesses in your initial prompt remain unaddressed. Without intentional iteration — analyzing output and refining the prompt based on it — you might either stick with a flawed prompt or wander in circles with changes that don't actually help.
-
-**Solution:** Refine your prompts through deliberate iteration. After each response the LLM gives, assess what was good and what fell short. Then adjust your next prompt to specifically fix those issues or to test a hypothesis about improving the answer. This might involve clarifying an instruction, adding a detail, or reordering parts of the prompt. By systematically learning from each attempt (rather than changing things at random), you guide the prompt toward an increasingly effective form and avoid unnecessary trial-and-error.
