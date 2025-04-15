@@ -141,9 +141,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="structured_input.html">
+        <li class="chapter " data-level="1.5" data-path="structured_input.md">
             
-                <a href="structured_input.html">
+                <span>
             
                     
                     Structured Input
@@ -154,9 +154,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="output_constraint.html">
+        <li class="chapter " data-level="1.6" data-path="output_constraint.md">
             
-                <a href="output_constraint.html">
+                <span>
             
                     
                     Output Constraint
@@ -167,9 +167,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="contextual_grounding.html">
+        <li class="chapter " data-level="1.7" data-path="contextual_grounding.md">
             
-                <a href="contextual_grounding.html">
+                <span>
             
                     
                     Contextual Grounding
@@ -180,9 +180,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8" data-path="contextual_carryover.html">
+        <li class="chapter " data-level="1.8" data-path="contextual_carryover.md">
             
-                <a href="contextual_carryover.html">
+                <span>
             
                     
                     Contextual Carryover
@@ -238,18 +238,15 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="persona-adoption">Persona Adoption</h2>
+                                <h3 id="persona-adoption">Persona Adoption</h3>
+<p>Give the LLM a persona to guide its responses.</p>
+<p><strong>Challenge:</strong> The LLM&apos;s default persona is often neutral and generic, lacking the specific perspective or expertise needed for a specialized task. Without a defined role, its responses may be too general and not aligned with the tone or depth you require.</p>
+<p><strong>Solution:</strong> Explicitly define a persona for the LLM at the start of the prompt. Include details such as:  </p>
 <ul>
-<li><strong>Intent:</strong> To imbue the LLM with a specific role, perspective, belief system, or expertise, ensuring the output reflects a desired viewpoint, tone, and domain knowledge.</li>
-<li><strong>Problem:</strong> The LLM&apos;s default persona is often too neutral, generic, or lacks the specific biases, expertise, or background needed for a specialized task. The output might lack the required depth, tone, or alignment.</li>
-<li><strong>Solution:</strong> Explicitly define the persona the LLM should adopt at the beginning of the prompt. Include details like:<ul>
-<li>Job title/Role (e.g., &quot;Chinese professor,&quot; &quot;Academic researcher&quot;).</li>
-<li>Area of expertise (e.g., &quot;international relations, geopolitics,&quot; &quot;digital sovereignty&quot;).</li>
-<li>Beliefs/Ideology (e.g., &quot;patriot and Marxist,&quot; &quot;believe internationalism... fits national interest&quot;).</li>
-<li>Implicit context associated with the role (e.g., Neican writers understand sensitivity and audience).</li>
-</ul>
-</li>
-<li><strong>Applicability:</strong> Use when the output&apos;s tone, perspective, level of formality, or specific knowledge base is critical and non-generic. Essential for tasks requiring specialized viewpoints (e.g., legal analysis, specific political commentary, creative writing in a character&apos;s voice). Seen strongly in Prompt 1, and present in Prompts 2 &amp; 3.</li>
+<li><strong>Role or title:</strong> The role or job title you want it to assume (e.g., &quot;a university history professor&quot;).  </li>
+<li><strong>Expertise:</strong> The area of expertise or domain knowledge it should have (e.g., &quot;with expertise in international relations and digital sovereignty&quot;).  </li>
+<li><strong>Ideology or viewpoint:</strong> Any key beliefs or ideological stance (e.g., &quot;a patriot with Marxist leanings who believes internationalism can align with national interest&quot;).  </li>
+<li><strong>Contextual info:</strong> Relevant background or context that comes with that persona (e.g., &quot;familiar with governmental sensitivities and the target audience&apos;s expectations&quot;).</li>
 </ul>
 
                                 
@@ -294,7 +291,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Persona Adoption","level":"1.2","depth":1,"next":{"title":"Prescribed Process","level":"1.3","depth":1,"path":"catalog/prescribed_process.md","ref":"catalog/prescribed_process.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"}},"file":{"path":"catalog/persona_adoption.md","mtime":"2025-04-15T07:48:44.583Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-04-15T07:49:15.807Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Persona Adoption","level":"1.2","depth":1,"next":{"title":"Prescribed Process","level":"1.3","depth":1,"path":"catalog/prescribed_process.md","ref":"catalog/prescribed_process.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"}},"file":{"path":"catalog/persona_adoption.md","mtime":"2025-04-15T08:13:29.841Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-04-15T08:14:01.949Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

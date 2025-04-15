@@ -57,7 +57,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="structured_input.html" />
+    <link rel="next" href="structured_input.md" />
     
     
     <link rel="prev" href="prescribed_process.html" />
@@ -141,9 +141,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="structured_input.html">
+        <li class="chapter " data-level="1.5" data-path="structured_input.md">
             
-                <a href="structured_input.html">
+                <span>
             
                     
                     Structured Input
@@ -154,9 +154,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="output_constraint.html">
+        <li class="chapter " data-level="1.6" data-path="output_constraint.md">
             
-                <a href="output_constraint.html">
+                <span>
             
                     
                     Output Constraint
@@ -167,9 +167,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="contextual_grounding.html">
+        <li class="chapter " data-level="1.7" data-path="contextual_grounding.md">
             
-                <a href="contextual_grounding.html">
+                <span>
             
                     
                     Contextual Grounding
@@ -180,9 +180,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8" data-path="contextual_carryover.html">
+        <li class="chapter " data-level="1.8" data-path="contextual_carryover.md">
             
-                <a href="contextual_carryover.html">
+                <span>
             
                     
                     Contextual Carryover
@@ -238,17 +238,14 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="style-mimicry--template-following">Style Mimicry / Template Following</h2>
+                                <h3 id="style-mimicry">Style Mimicry</h3>
+<p>Give the LLM sample documents to mimic style and structure.</p>
+<p><strong>Challenge:</strong> Achieving a very specific tone or format in the output is difficult if the LLM isn&apos;t guided by examples. The model&apos;s default writing style might not match what you need &#x2014; it could be less formal, differently organized, or otherwise inconsistent with a particular style or template you&apos;re aiming for. Without showing the model what you want, the nuances of a desired style may be lost.</p>
+<p><strong>Solution:</strong> Provide examples or templates that demonstrate the desired style, and instruct the LLM to emulate them:  </p>
 <ul>
-<li><strong>Intent:</strong> To ensure the LLM&apos;s output conforms to a specific stylistic or structural format by providing explicit examples or templates to emulate.</li>
-<li><strong>Problem:</strong> Achieving consistent formatting, language style, tone, or document structure can be difficult. The LLM might generate output that is stylistically inappropriate or structurally incorrect.</li>
-<li><strong>Solution:</strong> Provide concrete examples or references for the LLM to follow:<ul>
-<li>Refer to attached documents specifically for their structure and style (e.g., &quot;You can study its structure and language style. NOTE: its content IS NOT relevant&quot;).</li>
-<li>Instruct the LLM to mimic the format of specific examples (e.g., &quot;mimic the format of each indicator as they are in Document 2 and Document 3&quot;).</li>
-<li>Provide snippets of desired style within the prompt itself (less common in these examples but a valid technique).</li>
-</ul>
-</li>
-<li><strong>Applicability:</strong> Use when output structure, formatting (headings, citations, lists), tone, or language style needs to be highly specific and consistent, especially when matching existing document types or series. Seen strongly in Prompts 1 and 3.</li>
+<li><strong>Reference examples:</strong> Share or attach a document that exemplifies the style/structure you want and direct the model to use it as a guide. (For instance: &quot;Refer to Document1 for the report style &#x2014; follow its tone and format, but ignore its actual content.&quot;)  </li>
+<li><strong>Format imitation:</strong> Explicitly tell the LLM to mimic certain format elements from the example (e.g., &quot;Use the same section headings and bullet layout as in the sample document&quot;).  </li>
+<li><strong>Style snippets:</strong> Optionally include a short excerpt in the prompt that captures the voice or style you want, so the LLM can mirror that in its output.</li>
 </ul>
 
                                 
@@ -282,7 +279,7 @@
                 </a>
                 
                 
-                <a href="structured_input.html" class="navigation navigation-next " aria-label="Next page: Structured Input">
+                <a href="structured_input.md" class="navigation navigation-next " aria-label="Next page: Structured Input">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -293,7 +290,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Style Mimicry","level":"1.4","depth":1,"next":{"title":"Structured Input","level":"1.5","depth":1,"path":"catalog/structured_input.md","ref":"catalog/structured_input.md","articles":[]},"previous":{"title":"Prescribed Process","level":"1.3","depth":1,"path":"catalog/prescribed_process.md","ref":"catalog/prescribed_process.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"}},"file":{"path":"catalog/style_mimicry.md","mtime":"2025-04-15T07:48:44.583Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-04-15T07:49:15.807Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Style Mimicry","level":"1.4","depth":1,"next":{"title":"Structured Input","level":"1.5","depth":1,"path":"catalog/structured_input.md","ref":"catalog/structured_input.md","articles":[]},"previous":{"title":"Prescribed Process","level":"1.3","depth":1,"path":"catalog/prescribed_process.md","ref":"catalog/prescribed_process.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"}},"file":{"path":"catalog/style_mimicry.md","mtime":"2025-04-15T08:13:29.841Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-04-15T08:14:01.949Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
