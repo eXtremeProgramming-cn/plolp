@@ -2,7 +2,7 @@
 
 [Online Live Book](https://extremeprogramming-cn.github.io/plolp/)
 
-![Deploy Workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![Deploy Workflow](https://github.com/extremeprogramming-cn/plolp/actions/workflows/deploy.yml/badge.svg)
 
 ## Catalog of Patterns
 
