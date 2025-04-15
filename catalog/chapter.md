@@ -5,4 +5,3 @@ Organize prompts into chapters for better structure and reuse.
 
 **Solution:** Divide your prompt into multiple titled sections or "chapters," each focusing on a specific aspect of the task. This structure provides a clear roadmap for the LLM to follow and ensures the LLM processes information in a logical order. It also helps you manage the content: you can update or reuse individual chapters (or attach separate documents as chapters) instead of dealing with one large, monolithic prompt.
 
-## Defining Task

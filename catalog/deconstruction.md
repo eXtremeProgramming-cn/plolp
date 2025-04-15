@@ -5,4 +5,3 @@ Use the LLM to deconstruct examples and reveal their structure and style.
 
 **Solution:** Have the LLM analyze and break down an example step by step. In your prompt, ask the model to explain how a given piece of writing or solution is constructed (for instance, "Explain the structure and approach used in the above example"). By getting the LLM to reverse-engineer the example, it will make implicit elements explicit — identifying the methodology, structure, and style used. This understanding can then guide the LLM (and you) in creating new content that follows the same successful pattern, since you now know the "recipe" behind the example.
 
-## Sharpening Your Mind

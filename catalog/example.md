@@ -5,4 +5,3 @@ Provide concrete examples for complex steps to avoid confusion.
 
 **Solution:** Include concrete examples within your prompt to illustrate what you want. For instance, show a sample input and the desired output for a key step. By demonstrating the correct format or outcome with an example, you reduce ambiguity and help the LLM follow your intentions more closely.
 
-## Setting Context and Role
