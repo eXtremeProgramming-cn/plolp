@@ -1,0 +1,6 @@
+### Structured Output
+Specify the output structure and content for each section.
+
+**Motivation:** If you don't specify the structure of the desired output, the LLM might return information in a format that doesn't suit your needs. You could get a single long narrative when you actually wanted a structured report with sections, or the response might omit components you were expecting (like an introduction or a summary). Lack of structure can make the output harder to follow or require significant editing to fit your intended use.
+
+**Solution:** Clearly outline the structure you expect in the response. For example, you can tell the LLM that the answer should have an introduction, several specific sections (naming them), and a conclusion. You might also describe what each section should contain (e.g., "Introduction: provide a brief overview of the issue..."). By giving the model an explicit format or template to follow, you ensure that the output is organized and complete in the way you want.

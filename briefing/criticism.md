@@ -1,0 +1,6 @@
+### Criticism
+Ask the LLM to critique your work and suggest improvements.
+
+**Motivation:** The first answer the LLM gives might contain flaws—factual errors, logical gaps, or unclear explanations—but if you stop at that, those issues remain. Moreover, as the author of the prompt or solution, you might not catch every problem in the output due to your own biases or blind spots. Without a critical review, suboptimal answers go unrefined.
+
+**Solution:** After getting an initial response, prompt the LLM to critically evaluate that answer (or even to review your prompt itself). For instance, you can ask, "Critique the above answer and suggest how it could be improved." The LLM can then point out weaknesses or mistakes from various angles (accuracy, completeness, clarity, etc.). It might identify missing information, correct an error, or recommend a better structure. By leveraging the LLM as a reviewer, you can refine the answer further—having it suggest edits or alternative phrasing—to arrive at a higher-quality final result.
