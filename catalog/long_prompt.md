@@ -1,6 +1,6 @@
 # Long Prompt
 
-*Use long prompts (1000+ words) for better results.*
+*Are you really using your LLM, if your prompt is under 1000 words?*
 
 ## Motivation
 
