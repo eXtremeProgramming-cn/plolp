@@ -1,4 +1,4 @@
-### Persona Adoption
+### Persona
 Give the LLM a persona to guide its responses.
 
 **Motivation:** The LLM's default persona is often neutral and generic, lacking the specific perspective or expertise needed for a specialized task. Without a defined role, its responses may be too general and not aligned with the tone or depth you require.
@@ -8,3 +8,9 @@ Give the LLM a persona to guide its responses.
 - **Expertise:** The area of expertise or domain knowledge it should have (e.g., "with expertise in international relations and digital sovereignty").  
 - **Ideology or viewpoint:** Any key beliefs or ideological stance (e.g., "a patriot with Marxist leanings who believes internationalism can align with national interest").  
 - **Contextual info:** Relevant background or context that comes with that persona (e.g., "familiar with governmental sensitivities and the target audience's expectations").
+
+**Explanations:** 
+
+I (the author) still don't quite understand the technological magic, but it seems setting a persona can have some subtle influences to LLM and frame its thinking.
+
+It's fine to have this chapter relatively shorter. It's simple and straightforward. I don't have much trick to add. 

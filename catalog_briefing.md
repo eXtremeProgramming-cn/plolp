@@ -52,7 +52,7 @@ Provide concrete examples for complex steps to avoid confusion.
 
 ## Setting Context and Role
 
-### Persona Adoption  
+### Persona  
 Give the LLM a persona to guide its responses.
 
 **Motivation:** The LLM's default persona is often neutral and generic, lacking the specific perspective or expertise needed for a specialized task. Without a defined role, its responses may be too general and not aligned with the tone or depth you require.

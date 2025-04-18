@@ -12,8 +12,8 @@
 - [Prescribed Process](catalog/prescribed_process.md)
 - [Example](catalog/example.md)
 
-### Setting Context and Role
-- [Persona Adoption](catalog/persona_adoption.md)
+### Setting Context
+- [Persona Adoption](catalog/persona.md)
 - [Audience](catalog/audience.md)
 - [Epistemology Frame](catalog/epistemology_frame.md)
 
