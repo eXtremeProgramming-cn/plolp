@@ -21,6 +21,8 @@ A first step to organize and structurize your prompt would be having chapters. B
 * Input
 * Output
 
+Another trick I found useful: number my chapters in a prompt (e.g. "5. Writing Style"), so I can refer them more accurately (e.g. in chapter 3 "Instructions" I can say "follow the writing style defined in Chapter 5").
+
 We can easily derive some chapters should be included in a proper prompt. Examples can be found in other reference files.
 
 FINAL NOTE: We can tell the reader here, next in the book we will explain other patterns, which will lead the reader to learn more about which chapters they should have and how to write those chapters properly. And we will start from "how to clearly define the task you want LLM to perform" next.
