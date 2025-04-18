@@ -1,7 +1,3 @@
-Thanks! I’ll now write a full chapter for the pattern "Problem Orientation" based on the structure and style specified in the prompt guidelines. This chapter will explain the importance of starting a prompt with the big picture, the challenges it solves, and how to effectively apply it with detailed examples.
-
-I’ll let you know as soon as it’s ready for your review.
-
 # Problem Orientation
 *Start with the big picture to clarify the prompt's goal.*
 
