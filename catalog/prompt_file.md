@@ -1,7 +1,6 @@
 # Prompt File
 
-## Punchline
-Use files instead of chatboxes to craft advanced prompts.
+*Use files instead of chatboxes to craft advanced prompts.*
 
 ## Motivation
 Crafting complex prompts directly in a chat box can be cumbersome and disorganized. Without saving prompts to a file, it's harder to revise or reuse them, and you might lose track of changes or versions. Additionally, some advanced prompt strategies (like adding attachments or iterative editing) are not feasible when everything is done inline in a chat.
