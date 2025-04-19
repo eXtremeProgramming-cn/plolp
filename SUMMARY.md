@@ -16,6 +16,7 @@
 - [Persona Adoption](catalog/persona.md)
 - [Audience](catalog/audience.md)
 - [Epistemology Frame](catalog/epistemology_frame.md)
+- [Glossary](catalog/glossary.md)
 
 ### Structuring Input
 - [Exhaustive Input](catalog/exhaustive_input.md)
@@ -26,7 +27,6 @@
 ### Shaping Output
 - [Structured Output](catalog/structured_output.md)
 - [Style Mimicry](catalog/style_mimicry.md)
-- [Formatting Constraints](catalog/formatting_constraints.md)
 - [Deconstruction](catalog/deconstruction.md)
 
 ### Sharpening Your Mind
