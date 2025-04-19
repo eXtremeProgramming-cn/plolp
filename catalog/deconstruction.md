@@ -3,7 +3,7 @@
 
 ## Motivation
 
-Many of us attempt to learn new skills by studying good examples. However, it can be challenging to replicate a great piece of writing or technique just by observation. The LLM might imitate surface features of an example without truly understanding the underlying structure or method. If the example isn’t thoroughly analyzed by either you or the model, important patterns or reasoning steps may remain hidden. This can lead to weaker results when you attempt something similar. In short, simply admiring a well-crafted example isn’t enough to reproduce its success – you need to understand *why* it works.
+Many of us attempt to learn new skills by studying good examples. However, it can be challenging to replicate a great piece of writing just by observation. The LLM might imitate surface features of an example without truly understanding the underlying structure or method. If the example isn’t thoroughly analyzed by either you or the model, important patterns or reasoning steps may remain hidden. This can lead to weaker results when you attempt something similar. In short, simply admiring a well-crafted example isn’t enough to reproduce its success – you need to understand *why* it works.
 
 ## Solution
 

@@ -30,7 +30,7 @@
 - [Deconstruction](catalog/deconstruction.md)
 
 ### Sharpening Your Mind
-- [Trial and Error](catalog/trial_and_error.md)
+- [Never Stop Winning](catalog/never_stop_winning.md)
 - [Iteration](catalog/iteration.md)
 - [Decomposition](catalog/decomposition.md)
 - [Precision](catalog/precision.md)
